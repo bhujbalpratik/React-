@@ -1,0 +1,7 @@
+
+1) Create React Project With React :
+        >>> npx create-react-app Folder Name.
+
+2) Create React Project With Vite :
+        >>> npm create vite@latest.
+                
