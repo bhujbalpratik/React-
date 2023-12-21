@@ -16,7 +16,7 @@ const Card = ({ cardName, btnText, imgSrc }) => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             debitis?
           </p>
-          <button className="mt-2 p-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white hover:border-b-2 hover:border-gray-400 hover:rounded-md">
+          <button className="mt-2 p-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white hover:border-b-2 hover:border-gray-400 hover:rounded-md outline-none">
             {btnText} →
           </button>
         </div>
