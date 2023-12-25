@@ -5,7 +5,7 @@ import Card from "./Card";
 function App() {
   return (
     <>
-      <div className="flex flex-col justify-center sm:flex-row sm:mx-auto">
+      <div className="flex flex-col justify-center sm:flex-row sm:mx-auto bg-">
         <Card
           cardName="Pratik Bhujbal"
           btnText="View Pratik"
