@@ -1,19 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { useState } from "react"
+import "./App.css"
 
 function App() {
-  let [counter, setCounter] = useState(15);
+  let [counter, setCounter] = useState(15)
 
   const IncValue = () => {
-    if (counter < 20) setCounter(++counter);
-    else alert("You reached your limit");
-  };
+    if (counter < 20) setCounter(++counter)
+    else alert("You reached your limit")
+  }
   const DecValue = () => {
-    if (counter > 0) setCounter(--counter);
-    else alert("You cant decrese than 0");
-  };
+    if (counter > 0) setCounter(--counter)
+    else alert("You cant decrese than 0")
+  }
 
   return (
     <>
@@ -25,7 +23,7 @@ function App() {
       <button onClick={DecValue}>Decrease Value</button>
       <h2>Another Counter : {counter}</h2>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
