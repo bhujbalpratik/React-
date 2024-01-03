@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 const Home = () => {
   return (
     <div className="mx-auto w-full max-w-7xl">
