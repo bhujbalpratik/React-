@@ -38,18 +38,8 @@ const Home = () => {
             odio minima id, deserunt cumque eius rem natus laborum itaque
             accusamus dicta rerum, blanditiis repellendus qui dolor ipsum.
             Eligendi maiores suscipit animi impedit! Est perspiciatis quidem quo
-            provident. Suscipit adipisci debitis odit, facilis iusto nemo magnam
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            dicta possimus facere repudiandae iste. Expedita rem consequuntur
-            non ex aut iusto voluptatem laborum nobis pariatur vitae soluta
-            dolor, dolorem optio. Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Laboriosam, odit at ipsum necessitatibus quisquam
-            qui distinctio aspernatur aliquid dicta perspiciatis ab laborum
-            quibusdam voluptates repellat veritatis velit neque amet sunt. eius
-            fugit corrupti? Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Voluptatum, porro sunt reiciendis quisquam est quia, magni
-            labore voluptates sapiente, suscipit iure accusamus doloribus maxime
-            id veritatis soluta consequuntur quam nostrum!
+            provident. Suscipit adipisci debitis odit, fugit corrupti? Lorem
+            ipsum dolor sit amet
           </p>
         </div>
       </div>
