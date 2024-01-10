@@ -7,6 +7,7 @@ const ColorSwitcher = (props) => {
   return (
     <header>
       <IconButton
+        zIndex={"overlay"}
         variant={"ghost"}
         color={"current"}
         pos={"fixed"}
