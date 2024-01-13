@@ -12,7 +12,29 @@
         Install Tailwind Css 
 
 1) Install TailwindCss and dependancies
-        >>> npm i -D tailwindcss postcss autoprefixer
+        >>> npm install -D tailwindcss postcss autoprefixer
 
 2) Create tailwind.config 
         >>> npx tailwindcss init -p
+
+
+
+        Chakra UI
+
+>>> npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+
+
+        React Iconns
+
+>>> npm i react-Iconns
+
+
+
+        React Responsive Carousel 
+
+>>> npm i react-responsive-Carousel
+
+
+
+        
