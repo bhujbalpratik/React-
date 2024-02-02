@@ -3,6 +3,7 @@
 
 ==> Redux is an open-source javascript library for mananging the state of an application in a predictable way. It is commonly used with libraries like React for building user interfaces but can be used with any javascript framework or library.
 
+
 2) Toolkit 
 
 ==> The official, opinionated, batteries-included toolset for efficient Redux development.
@@ -12,3 +13,31 @@
 
 ==> A store is a central place where the state of our application is stored & it can be created using the (configureStore) function, and it holds the entire state tree of our application.
  
+
+4) Slice
+
+==> A slice is a (piece of store) and the corresponding reducer logic to update that state. Slices are a way to organize our Redux store by breaking it down into smaller,more manageable parts.
+
+    Slice Analogy
+
+    ==> Imagine you have a big cake and you want to cut it into smaller, more manageable pieces.
+    Each peice is a like a "slice" of the cake. In the context redux toolkit a "slice" is like a smaller part of your application's overall state and the instructions on how to change or update that specific part.
+
+
+5) initialState
+
+==>Initial state as the name suggest is going to be the "initial" data of our state.
+
+
+6) Reducers 
+
+==> Reducers are like the instructions on what to do with each slice of the cake.
+
+==> They define how the information in a particular slice cqan be (changed or update )
+
+
+7) Actions 
+
+==> Actions are like the (requests or commands) you gib=ve to change aspecific slice of the cake.
+
+==> for example, you might have an action called "Eat a Bite" that instructs how to take a bite from a slice.
