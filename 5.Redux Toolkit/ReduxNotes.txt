@@ -1,0 +1,14 @@
+
+1)  What is redux ?
+
+==> Redux is an open-source javascript library for mananging the state of an application in a predictable way. It is commonly used with libraries like React for building user interfaces but can be used with any javascript framework or library.
+
+2) Toolkit 
+
+==> The official, opinionated, batteries-included toolset for efficient Redux development.
+
+
+3) Store 
+
+==> A store is a central place where the state of our application is stored & it can be created using the (configureStore) function, and it holds the entire state tree of our application.
+ 

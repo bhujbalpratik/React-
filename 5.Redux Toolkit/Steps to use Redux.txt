@@ -1,0 +1,21 @@
+ Step 1 : Create Store 
+
+        import {configureStore} from "@reduxjs/toolkit"
+
+        export const store = configureStore({
+            reducer: {},
+        })
+
+
+Step 2 : Provide the Redux Store to React 
+
+        import ReactDOM from "react-dom/client"
+        import App from "./App.jsx"
+        import { store } from "./app/store"
+        import { Provider } from "react-redux"
+
+        ReactDOM.createRoot(document.getElementById("root")).render(
+            <Provider store={store}>
+                <App/>
+            </Provider>
+        )
