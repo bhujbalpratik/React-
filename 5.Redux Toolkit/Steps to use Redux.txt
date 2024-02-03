@@ -54,3 +54,23 @@ Step 4 : Add Slice Reducers to the Store
             }
         })
 
+
+Step 5 : Use Redux State and Actions in React Components
+
+        import { useSelector, useDispatch } from "react-redux"
+        import { decrement, increment } from "../app/features/counterSlice"
+
+        export const Counter = () => {
+            const count = useSelector((state) => state.counter.value)
+            const dispatch = useDispatch()
+
+            return (
+                <div>
+                    <div>
+                        <h1>Count : {count}</h1>
+                        <button onClick={() => dispatch(increment())}>Increment</button>
+                        <button onClick={() => dispatch(decrement())}>decrement</button>
+                    </div>
+                </div>
+            )
+        }

@@ -41,3 +41,21 @@
 ==> Actions are like the (requests or commands) you gib=ve to change aspecific slice of the cake.
 
 ==> for example, you might have an action called "Eat a Bite" that instructs how to take a bite from a slice.
+
+
+8) useSelector() Hook
+
+==> useSelector hook allows us to read data from the redux store.
+
+
+9) useDispatch() Hook 
+
+==> The dispatch function is used to send actions to the store,triggering updates to the 
+store, triggering updates to the application state.
+
+==> In simpler terms, it lets you (change the state) in your Redux store from within your React Componnets.
+
+
+10) Redux Toolkit Query 
+
+==> Redux Toolkit Query (RTK) is specifically designed to simplify data fetching ,caching, and state management for API calls in a react.
