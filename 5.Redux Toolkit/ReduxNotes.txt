@@ -58,4 +58,14 @@ store, triggering updates to the application state.
 
 10) Redux Toolkit Query 
 
-==> Redux Toolkit Query (RTK) is specifically designed to simplify data fetching ,caching, and state management for API calls in a react.
+==> Redux Toolkit Query (RTK) is specifically designed to simplify data fetching ,caching, and state management for API calls in a react and redux application.
+
+        In RTK query we learn.
+
+        ==> How to get all products.
+        ==> How to get a specific product.
+        ==> How to add a new product.
+        ==> How to update a product.
+        ==> How to delete a product.
+
+
