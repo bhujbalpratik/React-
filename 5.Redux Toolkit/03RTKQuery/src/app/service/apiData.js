@@ -7,7 +7,22 @@ export const productAPI = createApi({
     getAllProduct: buider.query({
       query: () => "/products",
     }),
+    getProductById: buider.query({
+      query: (id) => `/products/${id}`,
+    }),
+    addNewProduct: buider.mutation({
+      query: (newProduct) => ({
+        url: "/products/add",
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: newProduct,
+      }),
+    }),
   }),
 })
 
-export const { useGetAllProductQuery } = productAPI
+export const {
+  useGetAllProductQuery,
+  useGetProductByIdQuery,
+  useAddNewProductMutation,
+} = productAPI
